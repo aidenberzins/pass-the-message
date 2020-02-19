@@ -43,11 +43,14 @@ button {
 .lastMessage {
   text-align: left;
   font-family: "Lucida Console", monospace;
-  display: block;
   background-color: #353535;
   border-bottom: 2px solid green;
   color: lightgreen;
   padding: 10px;
   padding-bottom: 25px;
   width: 100%;
+}
+span {
+  display: block;
+  padding-bottom: 5px;
 }
