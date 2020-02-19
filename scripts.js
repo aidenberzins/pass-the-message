@@ -6,6 +6,6 @@ button.addEventListener("click", function() {
   let text = document.querySelector("#message").value;
   let message = document.createElement("span");
   message.innerHTML = text;
-  msg.append(message);
+  msg.prepend(message);
   console.log(message);
 });
